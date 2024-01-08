@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de The Weeknd</h1>
+        
+
+        <div id="quiz-container">
+            <!-- Agrega esto dentro del div 'quiz-container' -->
+            <div id="numero-pregunta"></div>
+
+            <!-- Las preguntas se cargarán aquí dinámicamente -->
+        </div>
+        <button id="calificar-btn" onclick="calificarQuiz()" disabled>Calificar</button>
+        <button id="siguiente-btn" onclick="siguientePregunta()" disabled>Siguiente Pregunta</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
